@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        Log.d("test","Showing another test message")
         Log.d("test","Hello World")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
